@@ -156,12 +156,26 @@
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 600px;
+    height: 700px;
 }
+
+.hero-header2 {
+    background: linear-gradient(rgba(15, 23, 43, .9), rgba(15, 23, 43, .9)), url(../img/bg-hero.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 200px;
+}
+
 
 .hero-header img {
     animation: imgRotate 50s linear infinite;
 }
+
+.hero-header1 img {
+    animation: imgRotate 20s linear infinite;
+}
+
 
 @keyframes imgRotate { 
     100% { 
